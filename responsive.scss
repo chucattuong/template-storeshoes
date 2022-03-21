@@ -1,0 +1,174 @@
+    // --------------------tablet
+    @media (min-width: 740px) and (max-width: 1023px) {
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .icon-circle {
+            height: 35px;
+            width: 35px;
+            font-size: 15px;
+            border-radius: 35px;
+        }
+        header {
+            .search-header {
+                width: 300px;
+            }
+            .about-header {
+                width: none;
+                align-items: center;
+                .call-phone {
+                    font-size: 11px;
+                    width: 180px;
+                    .icon-circle {
+                        margin-right: 5px;
+                    }
+                }
+                .icon-circle {
+                    margin-left: 6px;
+                }
+            }
+        }
+        .items {
+            padding-left: 0px;
+            padding-right: 0px;
+            justify-content: start !important;
+            .item-shoes {
+                margin-bottom: 20px;
+                .priceItem {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        #lisadd-sharing {
+            right: 10px;
+        }
+    }
+    /* mobile -------------- */
+    
+    @media (max-width: 740px) {
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .icon-circle {
+            height: 35px;
+            width: 35px;
+            font-size: 15px;
+            border-radius: 35px;
+        }
+        header {
+            .mid-header {
+                .container {
+                    height: 85px;
+                    .logo {
+                        display: flex;
+                        justify-content: center;
+                        img {
+                            width: 50%;
+                        }
+                    }
+                    .about-header {
+                        justify-content: center;
+                        .call-phone {
+                            display: none;
+                        }
+                        .menu-mobile {
+                            display: block;
+                            opacity: 1;
+                        }
+                        .icon-circle:nth-child(2) {
+                            display: none;
+                        }
+                        .icon-circle:nth-child(3) {
+                            display: flex;
+                        }
+                    }
+                }
+            }
+        }
+        #menu {
+            .container {
+                ul li {
+                    padding: 0px 15px;
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        #category {
+            .project {
+                .item {
+                    .des-project {
+                        h2 {
+                            text-shadow: 0 0 0.4em rgb(0, 0, 0)
+                        }
+                    }
+                }
+            }
+        }
+        .items {
+            flex-direction: row;
+            .item-shoes {
+                max-width: 213px;
+            }
+        }
+        #sneaker-nangdong {
+            .container {
+                .banner-hottrend {
+                    flex-direction: column;
+                    .title-banner {
+                        padding: 25px 20px;
+                    }
+                }
+            }
+        }
+        #section-sanphamnoibat {
+            .container {
+                .menu-content {
+                    .danhmuc {
+                        h2 {
+                            font-size: 20px;
+                        }
+                        ul li {
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                    .content-item {
+                        .items {
+                            .item-shoes {
+                                max-width: 163px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section-service {
+            .container {
+                .row {
+                    font-size: 11px;
+                    .desc {
+                        padding-right: 8px;
+                    }
+                }
+            }
+        }
+        #footer-bottom {
+            .container {
+                flex-direction: column;
+                .call {
+                    margin-bottom: 20px;
+                    .call-about {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
